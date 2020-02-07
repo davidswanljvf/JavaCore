@@ -1,0 +1,27 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<!--<GridPane fx:controller="sample.Controller"-->
+<!--xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">-->
+<!--<Button text="btn1" onAction="#btn1Click" GridPane.columnIndex="0" GridPane.rowIndex="0"/>-->
+<!--<Button text="btn2" onMouseClicked="#btn2MouseClick" GridPane.columnIndex="0" GridPane.rowIndex="1"/>-->
+<!--<Label fx:id="label" text="labeltext" GridPane.columnIndex="1" GridPane.rowIndex="1" />-->
+<!--<TextArea fx:id="textArea" prefHeight="100" prefWidth="100" GridPane.columnIndex="1" GridPane.rowIndex="0"-->
+<!--GridPane.vgrow="ALWAYS"/>-->
+<!--</GridPane>-->
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+<VBox fx:id="vbox" fx:controller="lesson4.Controller"
+      xmlns:fx="http://javafx.com/fxml" alignment="center">
+    <stylesheets>
+        <URL value="@/lesson4/css/style.css"/>
+    </stylesheets>
+
+    <Button text="creat new window" onAction="#createNewWindow"/>
+    <Button fx:id="btn1" text="   " onAction="#btn1ClickAddBtn"/>
+
+</VBox>
+

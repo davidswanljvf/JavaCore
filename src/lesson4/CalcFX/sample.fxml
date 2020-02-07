@@ -1,0 +1,43 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import java.net.URL?>
+<BorderPane fx:controller="lesson4.CalcFX.Controller"
+            xmlns:fx="http://javafx.com/fxml">
+    <stylesheets>
+        <URL value="@/lesson4/CalcFX/css/style.css"/>
+    </stylesheets>
+
+<top>
+    <MenuBar>
+        <Menu text="File">
+            <MenuItem text="Open"/>
+            <MenuItem text="Close"/>
+        </Menu>
+    </MenuBar>
+</top>
+    <center>
+        <VBox>
+            <TextField fx:id="text"/>
+            <HBox>
+                <Button text="+" onAction="#clickPlus" minWidth="40" minHeight="40"/>
+                <Button text="-" onAction="#clickMinus" minWidth="40" minHeight="40"/>
+                <Button text="*" onAction="#clickPlus" minWidth="40" minHeight="40"/>
+                <Button text="/" onAction="#clickPlus" minWidth="40" minHeight="40"/>
+                <Button text="=" onAction="#clickCalc" minWidth="40" minHeight="40"/>
+                <Button text="C" onAction="#clickPlus" minWidth="40" minHeight="40"/>
+            </HBox>
+        </VBox>
+    </center>
+
+
+</BorderPane>

@@ -16,8 +16,6 @@ public class Controller<event> {
     @FXML
     private TextArea textArea;
     @FXML
-    private Label label;
-    @FXML
     private TextField text;
 
     public void SendMessage(ActionEvent actionEvent) {

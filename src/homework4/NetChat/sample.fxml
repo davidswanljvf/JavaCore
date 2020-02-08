@@ -13,8 +13,8 @@
     </center>
     <bottom>
 
-        <HBox centerShape="true">
-            <Label fx:id="label" text=" (o_O) "/>
+        <HBox>
+            <Label text=" (o_O) "/>
             <TextField fx:id="text" onKeyPressed="#PressEnter"
                        HBox.hgrow="ALWAYS"/> <!-- HBox.hgrow растягиваеться по длине  -->
             <Button fx:id="button" text="Отправить" onAction="#SendMessage" minWidth="20"
@@ -23,32 +23,4 @@
     </bottom>
 
 </BorderPane>
-
-
-        <!--
-         <Button text="btn1" onAction="#btn1Click" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
-    <Button text="btn2" onMouseClicked="#btn2MouseClick" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
-    <Label fx:id="label" text="labeltext" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-    <TextArea fx:id="textArea" prefHeight="100" prefWidth="100" GridPane.columnIndex="1" GridPane.rowIndex="0"
-    GridPane.vgrow="ALWAYS"/>
-    <BorderPane fx:controller="sample.Controller"
-            xmlns:fx="http://javafx.com/fxml">
-    <center>
-
-        <TextArea fx:id="textArea"/>
-
-    </center>
-    <bottom>
-
-        <HBox centerShape="true">
-            <Label fx:id="label" text="->: " />
-<TextField fx:id="text"/>
-<Button text="Отправить" onAction="#SendMessage" minWidth="20" minHeight="20" />
-        </HBox>
-        </bottom>
-
-        </BorderPane>
-
-
-    -->
 

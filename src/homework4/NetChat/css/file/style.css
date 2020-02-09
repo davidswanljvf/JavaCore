@@ -1,0 +1,10 @@
+
+.button{
+    -fx-background-color: #c4e37d;
+}
+.text-area {
+    -fx-text-fill: #545454;
+    -fx-control-inner-background: #d2f8d2;
+    -fx-highlight-fill: #a4bbeb;
+    -fx-highlight-text-fill: blue;
+}
